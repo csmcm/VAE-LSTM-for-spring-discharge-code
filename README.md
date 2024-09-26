@@ -1,4 +1,4 @@
-# VAE-LSTM-code-and-data
+# VAE-LSTM-code
 ## Project Overview
 This project aims to predict karst spring discharge by using Variational Autoencoder (VAE) for precipitation data augmentation and then inputting the enhanced data into deep learning models such as LSTM.
 ## Project Structure
