@@ -1,15 +1,10 @@
 # VAE-LSTM-code-and-data
 ## Project Overview
-This project aims to predict spring flow by using Variational Autoencoder (VAE) for precipitation data augmentation and then inputting the enhanced data into deep learning models such as LSTM.
+This project aims to predict karst spring discharge by using Variational Autoencoder (VAE) for precipitation data augmentation and then inputting the enhanced data into deep learning models such as LSTM.
 ## Project Structure
 ### Directory Structure Explanation
-- data folder: Contains original data, enhanced data, and specific calculation results for various figures and tables in the paper.
-- Various formulas folder: Includes calculation formulas for various indicators.
-- 3-6 folders:
-    - VAE code: Contains code related to VAE.
-    - other models: Contains code for other models.
-    - VAE-LSTM End to end model: Contains the main logic code and pre-trained weights for the VAE-LSTM end-to-end model.
-    - other dl model: Contains adjusted model logic code and pre-trained weights for other deep learning models.
+- VAE-LSTM folder: Contains VAE code and the coupled VAE/LSTM code that are the main logic code and pre-trained weights for the VAE-LSTM end-to-end model . 
+- other deep learning model code contatins the logic code and pre-trained weights for other deep learning model, such as GCN, ANN, RNN and Transformer model.
 ### Important File Explanation
 In the VAE-LSTM End to end model folder, the main code files are crucial for running the model and obtaining predictions.
 ## Installation and Configuration
